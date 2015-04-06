@@ -182,7 +182,7 @@ for (int i = 0; showed_card[i] != 0; ++i)
         case 1 : cout << "Hearts";break;
         case 2 : cout << "Spade";break;
         case 3 : cout << "Diamonds";break;
-        case 4 : cout << "Grass flower";
+        case 4 : cout << "Club";
     }
 
     switch (mark)
