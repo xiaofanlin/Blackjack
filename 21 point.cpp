@@ -39,7 +39,8 @@ while (1)
             cin.sync();
             continue;
         }
-
+        cin.clear(); //clear the cin
+        cin.sync();
         shuffle(player, counter_player); //initialize the parameters before new games
         shuffle(computer, counter_computer);
         shuffle(used_card, counter_computer);
@@ -70,7 +71,8 @@ while (1)
                 cin.sync();
                 continue;
             }
-
+            cin.clear();
+            cin.sync();
             if (decision == 'y')
             {
                  cout << endl;
